@@ -1,9 +1,10 @@
-# Django
-*.sqlite3
-*.log
-staticfiles/
-media/
+venv/
+.pylintrc
+__pycache__/
 
 .vscode
 .idea
 .env
+
+db.sqlite3
+media/
